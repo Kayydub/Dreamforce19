@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Threat_Assessment_Date_Required</fullName>
+    <active>true</active>
+    <description>If threat level is provided, the assessment date is required</description>
+    <errorConditionFormula>And(
+Not(Ispickval( Threat_Level__c ,&quot;&quot;)),
+isblank( Threat_Assessed_Date__c )
+)</errorConditionFormula>
+    <errorDisplayField>Threat_Assessed_Date__c</errorDisplayField>
+    <errorMessage>Please provide the threat assessment date.</errorMessage>
+</ValidationRule>

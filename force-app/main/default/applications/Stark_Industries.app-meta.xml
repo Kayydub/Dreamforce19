@@ -8,13 +8,13 @@
     <formFactors>Large</formFactors>
     <label>Stark Industries</label>
     <navType>Standard</navType>
-    <tab>standard-home</tab>
-    <tab>standard-Account</tab>
-    <tab>standard-Contact</tab>
-    <tab>standard-Opportunity</tab>
-    <tab>Invention__c</tab>
-    <tab>standard-report</tab>
-    <tab>standard-Dashboard</tab>
+    <tabs>standard-home</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>standard-Opportunity</tabs>
+    <tabs>Invention__c</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-Dashboard</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Stark_Industries_UtilityBar</utilityBar>
 </CustomApplication>

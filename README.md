@@ -19,7 +19,7 @@ If you already have an authorized DevHub, set it as the default:
 
 Create a scratch org.
 
-    sfdx force:org:create -s -f config/project-scratch-def.json
+    sfdx force:org:create -s -f config/project-scratch-def.json -a TxDreamin
 
 If you want to use an existing scratch org, set it as the default:
 

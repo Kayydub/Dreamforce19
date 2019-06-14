@@ -1,4 +1,3 @@
-
 ## Set Up the Salesforce DX Project
 
 Our first goal is to set up a developer project which we'll use to modify our application. It starts by cloning the repository. Use the command ...
@@ -9,38 +8,52 @@ Our first goal is to set up a developer project which we'll use to modify our ap
     
 ## Steps
 
-Authorize to your Developer Hub (Dev Hub) org.
-
-    sfdx force:auth:web:login -d -a "DevHub"
-
-If you already have an authorized DevHub, set it as the default:
-
-    sfdx force:config:set defaultdevhubusername=<username|alias>
+Authorize to your Developer Hub (Dev Hub) org.      Sfdx force:auth:web:login -d -a "DevHub"
+If you already have an authorized DevHub, set it as the default:   sfdx force:config:set defaultdevhubusername=<username|alias>
 
 Create a scratch org.
-
     sfdx force:org:create -s -f config/project-scratch-def.json -a TxDreamin
 
 If you want to use an existing scratch org, set it as the default:
-
     sfdx force:config:set defaultusername=<username|alias>
 
 Push your source.
-
-    sfdx force:source:push
-
-Run your tests.
-
-    sfdx force:apex:test:run
-    sfdx force:apex:test:report -i <id>
+    sfdx force:source:push -f
 
 Open the scratch org.
+    sfdx force:org:open 
 
-    sfdx force:org:open --path one/one.app
+Make some changes and then Pull your source.
 
-## Resources
+    sfdx force:source:pull -f
 
-For details on using sfdx-simple, please review the [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev).
+Git commands:
+    Create a new branch: git checkout -b branchname
+    pull source: git pull
+    Delete a branch: git branch -d branchname
+
+
+Git Commands to push your branch to the cloud:
+
+    git status
+    git add -A
+    git commit -m "Comments"
+    git push origin branchname
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Description of Files and Directories  
 
@@ -53,3 +66,4 @@ For details on using sfdx-simple, please review the [Salesforce DX Developer Gui
 ## Issues
 
 Please log issues related to this repository [here](https://github.com/forcedotcom/sfdx-simple/issues).
+

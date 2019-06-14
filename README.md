@@ -1,4 +1,3 @@
-
 ## Set Up the Salesforce DX Project
 
 Our first goal is to set up a developer project which we'll use to modify our application. It starts by cloning the repository. Use the command ...
@@ -67,3 +66,4 @@ Git Commands to push your branch to the cloud:
 ## Issues
 
 Please log issues related to this repository [here](https://github.com/forcedotcom/sfdx-simple/issues).
+

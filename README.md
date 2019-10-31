@@ -2,7 +2,7 @@
 
 Our first goal is to set up a developer project which we'll use to modify our application. It starts by cloning the repository. Use the command ...
 
-    git clone https://github.com/Kayydub/TexasDreamin.git
+    git clone https://github.com/Kayydub/Dreamforce.git
 
 
     
@@ -12,7 +12,7 @@ Authorize to your Developer Hub (Dev Hub) org.      Sfdx force:auth:web:login -d
 If you already have an authorized DevHub, set it as the default:   sfdx force:config:set defaultdevhubusername=<username|alias>
 
 Create a scratch org.
-    sfdx force:org:create -s -f config/project-scratch-def.json -a TxDreamin
+    sfdx force:org:create -s -f config/project-scratch-def.json -a DF19
 
 If you want to use an existing scratch org, set it as the default:
     sfdx force:config:set defaultusername=<username|alias>

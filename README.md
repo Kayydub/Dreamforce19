@@ -4,7 +4,11 @@ Our first goal is to set up a developer project which we'll use to modify our ap
 
     git clone https://github.com/Kayydub/Dreamforce.git
 
-
+## Need Help?
+sfdx --help // lists all top-level topics
+sfdx force --help // lists all the topics under force
+sfdx force:org --help // lists all the commands in the topic force:org
+sfdx force:org:open --help // detailed info about the force:org:open command
     
 ## Steps
 

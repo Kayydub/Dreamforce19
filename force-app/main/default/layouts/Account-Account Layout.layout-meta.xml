@@ -49,36 +49,11 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Threat_Assessed_Date__c</field>
-            </layoutItems>
-<<<<<<< HEAD
-=======
-            <layoutItems>
-                <behavior>Edit</behavior>
                 <field>Operations_Notes__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Assessment_Date__c</field>
-            </layoutItems>
-        </layoutColumns>
-        <layoutColumns>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Rating</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Phone</field>
-            </layoutItems>
->>>>>>> 329dd460077721bdce36fc1ae461a6f93bff8ac5
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Operations_Notes__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Threat_Confined__c</field>
+                <field>Date_of_Execution__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -279,7 +254,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00h55000000j6fR</masterLabel>
+        <masterLabel>00h55000000jcif</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>

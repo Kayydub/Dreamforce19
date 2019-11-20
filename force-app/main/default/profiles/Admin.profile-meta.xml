@@ -36,6 +36,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.Favorite_Country__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.Infinity_Stone_Spotted__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -47,6 +52,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.Operations_Notes__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Supervisor_Notes__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
